@@ -3,7 +3,7 @@ title: MongoDB Dump & Restore
 publish_date: 2023-01-19
 ---
 
-`mongodump` and `mongorestore` are used to backup and restore databases and collections. It is part of the MongoDB database tools that must be installed on your machine:
+`mongodump` and `mongorestore` are used to backup and restore databases and collections. It is part of the MongoDB database tools:
 
 - Install the MongoDB Command Line Database Tools for Windows: https://www.mongodb.com/try/download/database-tools
 - Add the bin folder to the Path environment variable (e.g. `C:\myBin\mongodb-database-tools\bin`)
