@@ -11,7 +11,7 @@ publish_date: 2023-01-19
   ```
 - Use [Compass](https://www.mongodb.com/products/compass) as an interactive tool for working with your databases. The default uri `mongodb://localhost:27017` will work fine.
 
-### Be a pro with MongoDB Shell
+### become a pro with MongoDB Shell
 Compass is fine, but sometimes it is easier to work with a good command-line interface: [MongoDB Shell](https://www.mongodb.com/docs/v4.4/mongo/#the-mongo-shell). Install it from [here](https://www.mongodb.com/docs/v4.4/mongo/#the-mongo-shell). Do not forgot to add the bin folder (e.g. `C:\myBin\mongosh-1.6.2-win32-x64\bin`) to the path environment variable.
 
 ```powershell

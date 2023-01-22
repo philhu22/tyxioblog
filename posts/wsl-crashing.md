@@ -14,8 +14,18 @@ Default Version: 2
 ```
 
 Collect the logs:
-```powewrshell
+
+```powershell
+# (Powershell console in admin mode.)
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/WSL/master/diagnostics/collect-wsl-logs.ps1" -OutFile collect-wsl-logs.ps1
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\collect-wsl-logs.ps1
+```
+Restart Wsl:
+
+```powershell
+# (Powershell console in admin mode.)
+Set-ExecutionPolicy Bypass -Scope Process -Force
+wsl --shutdown
+Get-Service LxssManager | Restart-Service
 ```
